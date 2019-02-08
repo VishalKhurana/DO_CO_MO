@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doctor At Service
+    </title>
+    
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
+   
+   
+    
+    
+    
+    
+
+</head>
+<body>
+    <script src="chat.js"></script>
+    
+    
+        <div id="heading_at_compounder" class="row">
+            <img id="photos" src="Screenshot (73).png"><h1 id="heading_at"><u>BLOCKS</u> &nbsp;&nbsp; <u>HOSPITAL</u></h1> </div>
+        
+        <div class="row" id="compounder">
+             <div id="add_patient" class="row">
+                 <h4 class="mx-4">ADD PATIENT</h4>
+                 <button type="button" id="add_pat" class="btn btn-success">+</button>
+             </div>
+
+        </div>
+        <br>
+        <div class="row mx-5" id="add_pat_div">
+            <span>
+            <h5 class="ml-4 mt-4">NAME:</h5><input type="text" id="add_pat_name" placeholder="Enter Patient's Name" class="mx-4 mb-2">
+            </span>
+            <span class="mx-2 mt-4">
+            <h5>Disease Title</h5><input type="text" id="add_pat_disease" placeholder="Enter disease Title"></span>
+            <span class="mx-2 mt-4">
+                    <h5>Phone Number</h5><input type="text" id="add_pat_phone" placeholder="Enter Phone Number"></span>
+            <span class="mx-2 mt-4">
+                    <h5>Fees</h5><input type="text" id="add_pat_fees" placeholder="Fees"></span>
+                  
+       <span class="mx-2 mt-4">
+        
+       <h5>DATE:</h5><input type="date" id="date"></span>
+         
+        <span>&nbsp;<button type="submit" id="add_pat_submit" class=" btn btn-success mx-2 my-4">Submit</button></span>
+        <span>&nbsp;<button type="submit" id="add_pat_hide" class=" btn btn-danger mx-2 my-4">Hide</button></span>
+            </div>
+            <div id="big_div">
+               
+                <div class="row" id="outer_div">
+                    <ul id="un"></ul>
+                   
+                  
+                </div>
+            </div>
+            <div id="doctor_arrived">
+                <button id="ddaa" class="btn btn-light">Click here when the doctor arrives</button>
+                
+            </div>
+            
+            <div id="window">
+                <div id="output">
+    
+                </div>
+           
+            <input id="text_message" type="text" placeholder="Your Text Here...">
+            <input id="handler" type="text" value="Compounder">
+            <button id="send" class="btn btn-info"><span id="seend">Send</span></button>
+            <button id="hides" class="btn btn-danger">Hide</button>
+            
+        </div>
+       
+        <button id="shows">Chat</button>
+    
+    
+</body>
+</html>
