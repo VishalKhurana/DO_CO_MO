@@ -1,5 +1,5 @@
 # DO_CO_MO
-DO_CO_MO - Doctor Compounder Medical Store Interaction System
+DO_CO_MO - Doctor Compounder MedicalStore Operations
 
 # Description
 This software aims to ease the process of patient medical file in the hospital.I have created a pipleine architecture where the patient  first register himself giving his basic details.
